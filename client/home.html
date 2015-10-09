@@ -1,4 +1,10 @@
 <template name="home">
   <h1>Welcome to the example blog application</h1>
-  This uses the <a href="https://github.com/Differential/meteor-blog">Meteor Blog</a> package by <a href="http://differential.com">Differential</a>
+  <p>
+    This uses the <a href="https://github.com/Differential/meteor-blog">Meteor Blog</a>
+    package by <a href="http://differential.com">Differential</a>
+  </p>
+  <p>
+    {{> blogLatest num=5}}
+  </p>
 </template>
