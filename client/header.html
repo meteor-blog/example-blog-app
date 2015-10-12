@@ -1,27 +1,22 @@
-<head>
-  <meta charset="UTF-8">
-  <title>Example Blog App</title>
-  <link rel="alternate" type="application/rss+xml" title="Example Blog App" href="/rss/posts">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
 <template name="header">
   <div class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-      <a href="/" class="navbar-brand">Example Blog App</a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-left">
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-        <li>
-          <a href="/admin/blog">Admin Area (must login)</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        {{> loginButtons}}
-      </ul>
+    <div class="container">
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Meteor Blog Example</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a href="{{blogPathFor "blogIndex"}}">Blog</a>
+          </li>
+          <li>
+            <a href="{{blogPathFor "blogAdmin"}}">Admin Area (must login)</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          {{> loginButtons}}
+        </ul>
+      </div>
     </div>
   </div>
 </template>
