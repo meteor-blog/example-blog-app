@@ -9,7 +9,6 @@ iron:router
 twbs:bootstrap
 accounts-password
 ian:accounts-ui-bootstrap-3
-standard-minifiers
 meteor-base
 mobile-experience
 mongo
@@ -23,3 +22,5 @@ random
 ejson
 spacebars
 check
+standard-minifier-css
+standard-minifier-js
