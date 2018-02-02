@@ -1,6 +1,8 @@
 # Example Meteor Blog App
 
-This is a very simple example app that uses the [`ryw:blog`](https://github.com/meteor-blog/meteor-blog) package along with bootstrap and iron router. 
+<s>This is a very simple example app that uses the [`ryw:blog`](https://github.com/meteor-blog/meteor-blog) package along with bootstrap and iron router. </s>
+
+This is a very broken, and useless example app that uses the [`ryw:blog`](https://github.com/meteor-blog/meteor-blog) package along with bootstrap and iron router.  Repo has not been touched in years.  Sorry for wasting your time.
 
 <s>You can view it live at [blog-example.meteor.com](http://blog-example.meteor.com)</s>
 
